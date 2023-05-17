@@ -78,7 +78,7 @@ export default function App() {
         const docRef = doc(db, "notes", noteId)
         await deleteDoc(docRef)
     }
-    console.log(notes.length)
+
     return (
         <main>
             {
